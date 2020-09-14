@@ -114,3 +114,50 @@ section {
 .portfolio {
   text-align: center;
 }
+.section-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-width: 250px;
+}
+.section-image {
+  width: 50%;
+  height: 100%;
+}
+.image-description {
+  padding: 36px 0 36px 55%;
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    .links {
+      display: flex;
+      flex-direction: row;
+    }
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: black;
+        text-decoration: none;
+        i {
+            font-size: 20px;
+            color: white;
+        }
+    }
+    p {
+      margin-right: 40px;
+    }
+}
+.portfolio {
+  background: #F7D1B0;
+}
