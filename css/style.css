@@ -18,6 +18,10 @@ section {
   font-family: "Pacifico", cursive;
 }
 
+body {
+  margin: 0 auto;
+}
+
 .navigation {
   background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center center;
@@ -48,6 +52,7 @@ section {
 .navigation ul li a {
   display: block;
   text-align: center;
+  font-family: "Prompt", sans-serif;
 }
 
 .navigation-inner {
@@ -77,7 +82,7 @@ section {
   margin: 24px auto 0 auto;
   padding: 16px;
   border-radius: 5px;
-  font-family: "Lobster", cursive;
+  font-family: "Prompt", sans-serif;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
@@ -106,6 +111,7 @@ section {
 
 .page-title {
   font-size: 20px;
+  font-family: "Lobster", cursive;
 }
 
 .page-subtitle {
@@ -116,6 +122,7 @@ section {
 
 .services {
   text-align: center;
+  font-family: "Prompt", sans-serif;
 }
 
 .services i {
@@ -129,10 +136,12 @@ section {
 .section-title {
   font-size: 30px;
   text-transform: uppercase;
+  font-family: "Prompt", sans-serif;
 }
 
 .section-description {
   padding-bottom: 50px;
+  font-family: "Prompt", sans-serif;
 }
 
 .portfolio {
@@ -174,6 +183,7 @@ section {
 .image-description {
   padding: 36px 0 36px 55%;
   text-align: center;
+  font-family: "Pacifico", cursive;
 }
 
 footer {
@@ -187,6 +197,7 @@ footer {
   -ms-flex-align: center;
       align-items: center;
   padding: 20px;
+  font-family: "Prompt", sans-serif;
 }
 
 footer .links {
@@ -222,5 +233,14 @@ footer p {
 
 .portfolio {
   background: #F7D1B0;
+}
+
+/*Media*/
+@media (max-width: 767px) {
+  .navigation {
+    -ms-flex-direction: column;
+        flex-direction: column;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

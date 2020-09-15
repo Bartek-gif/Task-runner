@@ -24,6 +24,9 @@ section {
 .title {
 	font-family: $font-golden;
 }
+body {
+	margin: 0 auto;
+}
 .navigation {
     background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center center;
@@ -50,6 +53,7 @@ section {
 .navigation ul li a {
             display: block;
             text-align: center;
+						font-family: $font-header;
 }
 .navigation-inner {
   display: flex;
@@ -69,7 +73,7 @@ section {
     margin: 24px auto 0 auto;
     padding: 16px;
     border-radius: 5px;
-    font-family: $font-text;
+    font-family: $font-header;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -94,6 +98,7 @@ section {
 }
 .page-title {
   font-size: 20px;
+	font-family: $font-text;
 }
 .page-subtitle {
   font-size: 60px;
@@ -102,6 +107,7 @@ section {
 }
 .services {
   text-align: center;
+	font-family: $font-header;
   i {
     border: 3px solid yellow;
     font-size: 40px;
@@ -113,9 +119,11 @@ section {
 .section-title {
   font-size: 30px;
   text-transform: uppercase;
+	font-family: $font-header;
 }
 .section-description {
   padding-bottom: 50px;
+	font-family: $font-header;
 }
 .portfolio {
   text-align: center;
@@ -151,6 +159,7 @@ section {
 .image-description {
   padding: 36px 0 36px 55%;
   text-align: center;
+	font-family: $font-golden;
 }
 footer {
     display: flex;
@@ -159,6 +168,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
+		font-family: $font-header;
     .links {
       display: flex;
       flex-direction: row;
@@ -184,4 +194,11 @@ footer {
 }
 .portfolio {
   background: #F7D1B0;
+}
+/*Media*/
+@media (max-width: 767px) {
+	.navigation {
+		flex-direction: column;
+		text-align: center;
+	}
 }
