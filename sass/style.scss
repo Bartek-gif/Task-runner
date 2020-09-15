@@ -3,8 +3,9 @@ $color-main: black;
 $color-second: black;
 $color-third: white;
 
-$font-text: 'Dancing Script', cursive;
-$font-header: 'Sriracha', cursive;
+$font-text: 'Lobster', cursive;
+$font-header: 'Prompt', sans-serif;
+$font-golden: 'Pacifico', cursive;
 
 $transition: all 1s;
 
@@ -20,6 +21,9 @@ $transition: all 1s;
 section {
     padding: 96px 0;
 }
+.title {
+	font-family: $font-golden;
+}
 .navigation {
     background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-position: center center;
@@ -31,6 +35,7 @@ section {
 }
 .navigation a {
   text-decoration: none;
+	color: black;
 }
 .navigation ul {
     padding: 0;
@@ -93,6 +98,7 @@ section {
 .page-subtitle {
   font-size: 60px;
   text-transform: uppercase;
+	font-family: $font-header;
 }
 .services {
   text-align: center;
