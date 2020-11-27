@@ -23,7 +23,7 @@ body {
 }
 
 .navigation {
-  background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/248771/pexels-photo-248771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -110,14 +110,17 @@ body {
 }
 
 .page-title {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Lobster", cursive;
+  font-family: "Lobster", cursive;
+  color: #ffffff;
 }
 
 .page-subtitle {
-  font-size: 60px;
+  font-size: 40px;
   text-transform: uppercase;
   font-family: "Prompt", sans-serif;
+  color: #ffffff;
 }
 
 .services {
